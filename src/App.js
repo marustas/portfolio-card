@@ -16,12 +16,23 @@ const Avatar = () => {
   return <img src="profile.jpg" alt="profile" className="avatar" />;
 };
 
-const Skill = () => {
-  return <div></div>;
+const Skill = (props) => {
+  return (
+    <div className="skill">
+      <span>{props.skill}</span>
+    </div>
+  );
 };
 
 const SkillList = () => {
-  return <Skill />;
+  return (
+    <div className="skill-list">
+      <Skill skill="React" />
+      <Skill skill="HTML/CSS" />
+      <Skill skill="Python" />
+      <Skill skill="C/C++" />
+    </div>
+  );
 };
 
 const Intro = () => {
