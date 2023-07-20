@@ -39,7 +39,7 @@ const SkillList = () => {
 const Intro = () => {
   return (
     <div>
-      <h1>Stanisalu Marudau</h1>
+      <h1>Stanislau Marudau</h1>
       <p>
         Hi, I'm a determined and goal-orineted Software engineer in learning,
         studying at VGTU, participant of NWERC22 semi-finals and organizer of
