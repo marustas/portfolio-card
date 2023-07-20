@@ -18,7 +18,7 @@ const Avatar = () => {
 
 const Skill = (props) => {
   return (
-    <div className="skill">
+    <div className="skill" style={{ backgroundColor: props.color }}>
       <span>{props.skill}</span>
     </div>
   );
@@ -27,10 +27,11 @@ const Skill = (props) => {
 const SkillList = () => {
   return (
     <div className="skill-list">
-      <Skill skill="React" />
-      <Skill skill="HTML/CSS" />
-      <Skill skill="Python" />
-      <Skill skill="C/C++" />
+      <Skill skill="React" color="#61DAFB" />
+      <Skill skill="HTML/CSS" color="#E34C26" />
+      <Skill skill="Python" color="#FFD43B" />
+      <Skill skill="C/C++" color="#649AD2" />
+      <Skill skill="JS" color="#F7DF1E" />
     </div>
   );
 };
